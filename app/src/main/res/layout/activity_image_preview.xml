@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:background="#00ADAA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagePreview">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1200px"
+        android:layout_height="1200px"
+        android:background="@color/white"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="303dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/light_blue_A200"
+        android:fadeScrollbars="false"
+        android:fontFamily="sans-serif-condensed"
+        android:isScrollContainer="true"
+        android:padding="10dp"
+        android:scrollbarSize="10dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/purple_500"
+        android:textSize="11.5pt" />
+
+    <TextView
+        android:id="@+id/header_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:textColor="@color/black"
+        android:textSize="14pt"
+        android:layout_marginBottom="90dp"
+        android:text="Detected Details" />
+
+
+</RelativeLayout>
