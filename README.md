@@ -1,5 +1,5 @@
 # VisMart
-##INTRO
+## INTRO
 VisMart was built on the concept of assisting partially visually impaired people and even normal users who wanted to save time while shopping where finding items in a shelf was a hassle.
 We decided to take on the following approach:
 1) Use machine learning to detect objects and separate them
